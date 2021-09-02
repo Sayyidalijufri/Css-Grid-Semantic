@@ -75,7 +75,7 @@ body{
       ;
     }
   }
-  @media screen and (max-width: 647px){
+  @media screen and (max-width: 467px){
     .container{
       grid-template-areas: 
       "header"
