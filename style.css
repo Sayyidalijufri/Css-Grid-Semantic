@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body{
+  overflow-x: hidden;
+}
 
 .container{
   width: 100vw;
@@ -42,7 +44,7 @@
   main{
     background-color: orange;
     color: white;
-    padding: 171px;
+    padding: 171px 0;
     grid-area: main;
   }
   footer{
