@@ -6,20 +6,17 @@
 
 
 .container{
-  margin: auto;
-  border: 5px solid black;
-  width: 500px;
-  height: 550px;
-  margin: 50px auto 0 auto; 
+  width: 100vw;
+  height: 100vh;
   display: grid;
   grid-template-areas: 
   "header header"
   "aside main"
   "sidebar main"
   "footer footer";
-  padding: 5px;
   grid-auto-columns: 1fr 1.5fr;
   grid-auto-rows: 1fr 1fr 1.3fr 0.3fr;
+  padding: 0;
 
 }
 
@@ -53,4 +50,16 @@
     color: white;
     padding: 20px 0;
     grid-area: footer;
+  }
+
+
+
+  @media screen and (max-width: 862px){
+    .container{
+      grid-template-areas: 
+      "header header header"
+      "aside main sidebar"
+      "footer footer footer"
+      ;
+    }
   }
