@@ -12,4 +12,9 @@
   height: 550px;
   margin: 50px auto 0 auto; 
   display: grid;
+  grid-template-areas: 
+  "header header"
+  "aside main"
+  "sidebar main"
+  "footer footer";
 }
