@@ -24,25 +24,30 @@
     background-color: rgb(182, 65, 182);
     color: white;
     padding: 40px 0;
+    grid-area: header;
   }
   aside{
     background-color: rgb(132, 162, 253);
     color: white;
     padding: 60px 0;
+    grid-area: aside;
 
   }
   sidebar{
     background-color: rgb(255, 72, 0);
     color: white;
     padding: 100px 0;
+    grid-area: sidebar;
   }
   main{
     background-color: orange;
     color: white;
     padding: 171px;
+    grid-area: main;
   }
   footer{
     background-color: grey;
     color: white;
     padding: 20px 0;
+    grid-area: footer;
   }
