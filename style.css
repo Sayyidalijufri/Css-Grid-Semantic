@@ -18,6 +18,9 @@
   "sidebar main"
   "footer footer";
   padding: 5px;
+  grid-auto-columns: 1fr 1.5fr;
+  grid-auto-rows: 1fr 1fr 1.3fr 0.3fr;
+
 }
 
   header{
