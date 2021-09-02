@@ -63,3 +63,13 @@
       ;
     }
   }
+  @media screen and (max-width: 647px){
+    .container{
+      grid-template-areas: 
+      "header header"
+      "aside sidebar"
+      "main main"
+      "footer  footer"
+      ;
+    }
+  }
