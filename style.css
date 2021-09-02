@@ -3,3 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
+.container{
+  margin: auto;
+  border: 5px solid black;
+  width: 500px;
+  height: 550px;
+  margin: 50px auto 0 auto; 
+}
